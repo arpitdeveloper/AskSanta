@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874E528222F7D9400C5A8BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E527222F7D9400C5A8BE /* AppDelegate.m */; };
+		1874E52E222F7D9400C5A8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874E52C222F7D9400C5A8BE /* Main.storyboard */; };
+		1874E530222F7D9400C5A8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1874E52F222F7D9400C5A8BE /* Assets.xcassets */; };
+		1874E533222F7D9400C5A8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874E531222F7D9400C5A8BE /* LaunchScreen.storyboard */; };
+		1874E536222F7D9400C5A8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E535222F7D9400C5A8BE /* main.m */; };
+		1874E53F222F820300C5A8BE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E53E222F820300C5A8BE /* HomeViewController.m */; };
+		1874E542222F877500C5A8BE /* TextMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E541222F877500C5A8BE /* TextMeController.m */; };
+		1874E54C222F94C400C5A8BE /* WriteTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E54B222F94C400C5A8BE /* WriteTextController.m */; };
+		1874E550222FA2B700C5A8BE /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E54F222FA2B700C5A8BE /* ChatController.m */; };
+		1874E555222FAF8400C5A8BE /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E553222FAF8400C5A8BE /* ChatCell.m */; };
+		1874E556222FAF8400C5A8BE /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E554222FAF8400C5A8BE /* ChatCell.xib */; };
+		1874E576222FCDA400C5A8BE /* ReceiveMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874E574222FCDA400C5A8BE /* ReceiveMessageCell.m */; };
+		1874E577222FCDA400C5A8BE /* ReceiveMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1874E575222FCDA400C5A8BE /* ReceiveMessageCell.xib */; };
+		1874E579222FF3E200C5A8BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1874E578222FF3E200C5A8BE /* GoogleService-Info.plist */; };
+		6D22253F4664FBECADD8E50E /* libPods-AskSanta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A050830BD6F09D8DF3DF5B15 /* libPods-AskSanta.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1874E523222F7D9400C5A8BE /* AskSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874E526222F7D9400C5A8BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1874E527222F7D9400C5A8BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1874E52D222F7D9400C5A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1874E52F222F7D9400C5A8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1874E532222F7D9400C5A8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1874E534222F7D9400C5A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874E535222F7D9400C5A8BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1874E53D222F820300C5A8BE /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1874E53E222F820300C5A8BE /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1874E540222F877500C5A8BE /* TextMeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextMeController.h; sourceTree = "<group>"; };
+		1874E541222F877500C5A8BE /* TextMeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMeController.m; sourceTree = "<group>"; };
+		1874E54A222F94C400C5A8BE /* WriteTextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteTextController.h; sourceTree = "<group>"; };
+		1874E54B222F94C400C5A8BE /* WriteTextController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteTextController.m; sourceTree = "<group>"; };
+		1874E54E222FA2B700C5A8BE /* ChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatController.h; sourceTree = "<group>"; };
+		1874E54F222FA2B700C5A8BE /* ChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
+		1874E552222FAF8400C5A8BE /* ChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		1874E553222FAF8400C5A8BE /* ChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		1874E554222FAF8400C5A8BE /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		1874E573222FCDA400C5A8BE /* ReceiveMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveMessageCell.h; sourceTree = "<group>"; };
+		1874E574222FCDA400C5A8BE /* ReceiveMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveMessageCell.m; sourceTree = "<group>"; };
+		1874E575222FCDA400C5A8BE /* ReceiveMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiveMessageCell.xib; sourceTree = "<group>"; };
+		1874E578222FF3E200C5A8BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CAA5B6CF56E6367A1B22A8F /* Pods-AskSanta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSanta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskSanta/Pods-AskSanta.debug.xcconfig"; sourceTree = "<group>"; };
+		52D4EC0C22363D78008C310D /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		52D4EC0E22363DBC008C310D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		52D4EC1022363DC7008C310D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		52D4EC1222363DE3008C310D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52D4EC1422363DEC008C310D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52D4EC1622363DFC008C310D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52D4EC1822363E06008C310D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A050830BD6F09D8DF3DF5B15 /* libPods-AskSanta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AskSanta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE46FECC44933801ED81FB35 /* Pods-AskSanta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskSanta.release.xcconfig"; path = "Pods/Target Support Files/Pods-AskSanta/Pods-AskSanta.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1874E520222F7D9400C5A8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D22253F4664FBECADD8E50E /* libPods-AskSanta.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1874E51A222F7D9400C5A8BE = {
+			isa = PBXGroup;
+			children = (
+				1874E525222F7D9400C5A8BE /* AskSanta */,
+				1874E524222F7D9400C5A8BE /* Products */,
+				B76EB43B531CF05060CB36AA /* Pods */,
+				DA4CC786042CD3AADBC5636B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1874E524222F7D9400C5A8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1874E523222F7D9400C5A8BE /* AskSanta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1874E525222F7D9400C5A8BE /* AskSanta */ = {
+			isa = PBXGroup;
+			children = (
+				1874E551222FAF5F00C5A8BE /* Cell */,
+				1874E53C222F7DD300C5A8BE /* Controllers */,
+				1874E526222F7D9400C5A8BE /* AppDelegate.h */,
+				1874E527222F7D9400C5A8BE /* AppDelegate.m */,
+				1874E52C222F7D9400C5A8BE /* Main.storyboard */,
+				1874E52F222F7D9400C5A8BE /* Assets.xcassets */,
+				1874E531222F7D9400C5A8BE /* LaunchScreen.storyboard */,
+				1874E578222FF3E200C5A8BE /* GoogleService-Info.plist */,
+				1874E534222F7D9400C5A8BE /* Info.plist */,
+				1874E535222F7D9400C5A8BE /* main.m */,
+			);
+			path = AskSanta;
+			sourceTree = "<group>";
+		};
+		1874E53C222F7DD300C5A8BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1874E53D222F820300C5A8BE /* HomeViewController.h */,
+				1874E53E222F820300C5A8BE /* HomeViewController.m */,
+				1874E540222F877500C5A8BE /* TextMeController.h */,
+				1874E541222F877500C5A8BE /* TextMeController.m */,
+				1874E54A222F94C400C5A8BE /* WriteTextController.h */,
+				1874E54B222F94C400C5A8BE /* WriteTextController.m */,
+				1874E54E222FA2B700C5A8BE /* ChatController.h */,
+				1874E54F222FA2B700C5A8BE /* ChatController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1874E551222FAF5F00C5A8BE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1874E552222FAF8400C5A8BE /* ChatCell.h */,
+				1874E553222FAF8400C5A8BE /* ChatCell.m */,
+				1874E554222FAF8400C5A8BE /* ChatCell.xib */,
+				1874E573222FCDA400C5A8BE /* ReceiveMessageCell.h */,
+				1874E574222FCDA400C5A8BE /* ReceiveMessageCell.m */,
+				1874E575222FCDA400C5A8BE /* ReceiveMessageCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B76EB43B531CF05060CB36AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA5B6CF56E6367A1B22A8F /* Pods-AskSanta.debug.xcconfig */,
+				FE46FECC44933801ED81FB35 /* Pods-AskSanta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA4CC786042CD3AADBC5636B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D4EC1822363E06008C310D /* CoreGraphics.framework */,
+				52D4EC1622363DFC008C310D /* Foundation.framework */,
+				52D4EC1422363DEC008C310D /* UIKit.framework */,
+				52D4EC1222363DE3008C310D /* SystemConfiguration.framework */,
+				52D4EC1022363DC7008C310D /* Security.framework */,
+				52D4EC0E22363DBC008C310D /* CFNetwork.framework */,
+				52D4EC0C22363D78008C310D /* Firebase.framework */,
+				A050830BD6F09D8DF3DF5B15 /* libPods-AskSanta.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1874E522222F7D9400C5A8BE /* AskSanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874E539222F7D9400C5A8BE /* Build configuration list for PBXNativeTarget "AskSanta" */;
+			buildPhases = (
+				4C78DB2B0B090DD9811B4703 /* [CP] Check Pods Manifest.lock */,
+				1874E51F222F7D9400C5A8BE /* Sources */,
+				1874E520222F7D9400C5A8BE /* Frameworks */,
+				1874E521222F7D9400C5A8BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AskSanta;
+			productName = AskSanta;
+			productReference = 1874E523222F7D9400C5A8BE /* AskSanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1874E51B222F7D9400C5A8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rajesh Shinde";
+				TargetAttributes = {
+					1874E522222F7D9400C5A8BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1874E51E222F7D9400C5A8BE /* Build configuration list for PBXProject "AskSanta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1874E51A222F7D9400C5A8BE;
+			productRefGroup = 1874E524222F7D9400C5A8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1874E522222F7D9400C5A8BE /* AskSanta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1874E521222F7D9400C5A8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E533222F7D9400C5A8BE /* LaunchScreen.storyboard in Resources */,
+				1874E577222FCDA400C5A8BE /* ReceiveMessageCell.xib in Resources */,
+				1874E556222FAF8400C5A8BE /* ChatCell.xib in Resources */,
+				1874E530222F7D9400C5A8BE /* Assets.xcassets in Resources */,
+				1874E52E222F7D9400C5A8BE /* Main.storyboard in Resources */,
+				1874E579222FF3E200C5A8BE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C78DB2B0B090DD9811B4703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskSanta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1874E51F222F7D9400C5A8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874E542222F877500C5A8BE /* TextMeController.m in Sources */,
+				1874E555222FAF8400C5A8BE /* ChatCell.m in Sources */,
+				1874E54C222F94C400C5A8BE /* WriteTextController.m in Sources */,
+				1874E536222F7D9400C5A8BE /* main.m in Sources */,
+				1874E550222FA2B700C5A8BE /* ChatController.m in Sources */,
+				1874E528222F7D9400C5A8BE /* AppDelegate.m in Sources */,
+				1874E53F222F820300C5A8BE /* HomeViewController.m in Sources */,
+				1874E576222FCDA400C5A8BE /* ReceiveMessageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1874E52C222F7D9400C5A8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874E52D222F7D9400C5A8BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1874E531222F7D9400C5A8BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874E532222F7D9400C5A8BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1874E537222F7D9400C5A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1874E538222F7D9400C5A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1874E53A222F7D9400C5A8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAA5B6CF56E6367A1B22A8F /* Pods-AskSanta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJ8C2HHV6P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AskSanta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asksanta.AskSanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1874E53B222F7D9400C5A8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE46FECC44933801ED81FB35 /* Pods-AskSanta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJ8C2HHV6P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AskSanta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asksanta.AskSanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1874E51E222F7D9400C5A8BE /* Build configuration list for PBXProject "AskSanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E537222F7D9400C5A8BE /* Debug */,
+				1874E538222F7D9400C5A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874E539222F7D9400C5A8BE /* Build configuration list for PBXNativeTarget "AskSanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874E53A222F7D9400C5A8BE /* Debug */,
+				1874E53B222F7D9400C5A8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1874E51B222F7D9400C5A8BE /* Project object */;
+}
